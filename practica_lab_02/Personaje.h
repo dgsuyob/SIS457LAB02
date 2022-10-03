@@ -1,12 +1,19 @@
 #pragma once
 class Personaje
 {
+private:
     int color;
-    float fuerza_b;
-    float fuerza_p;
     int piel;
     int velocidad;
     bool fin;
     int movimiento_x;
+    int movimiento_y;
+    int salto;
+public:
+    Personaje();
+    void saltar();
+    void movimientoX();
+    void movimientoY();
+    bool estado();
 };
 

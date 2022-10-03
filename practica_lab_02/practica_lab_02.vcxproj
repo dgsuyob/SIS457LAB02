@@ -129,17 +129,21 @@
   <ItemGroup>
     <ClCompile Include="Barril.cpp" />
     <ClCompile Include="Escalera.cpp" />
+    <ClCompile Include="escenario.cpp" />
+    <ClCompile Include="fuego.cpp" />
     <ClCompile Include="Kong.cpp" />
     <ClCompile Include="Personaje.cpp" />
+    <ClCompile Include="Princesa.cpp" />
     <ClCompile Include="Principal.cpp" />
-    <ClCompile Include="Proyectil.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Barril.h" />
     <ClInclude Include="Escalera.h" />
+    <ClInclude Include="escenario.h" />
+    <ClInclude Include="fuego.h" />
     <ClInclude Include="Kong.h" />
     <ClInclude Include="Personaje.h" />
-    <ClInclude Include="Proyectil.h" />
+    <ClInclude Include="Princesa.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
